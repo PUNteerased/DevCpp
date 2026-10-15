@@ -1,0 +1,23 @@
+DevCpp-AI — Personal Hotspot + Dify (ค่า default ในตัว)
+=====================================================
+
+Hotspot default
+  SSID: hah
+  Pass: Araina555
+
+Dify API default
+  URL: https://api.dify.ai/v1
+  Key: (ฝังในโปรแกรมแล้ว)
+
+วิธีใช้
+1) มือถือเปิด Personal Hotspot ชื่อ hah
+2) ดับเบิลคลิก DevCpp-AI.exe
+   - โปรแกรมจะพยายามต่อ Wi-Fi 'hah' เอง
+   - เปิด Dev-C++ + AI Chat
+3) แชทใช้เน็ตฮอตสปอตเท่านั้น (ไม่ใช้สาย LAN)
+
+แจกผ่านฮอตสปอต / เว็บ local
+  python tools\share_server.py --port 8080
+
+Uninstall: ปุ่ม Uninstall ในหน้าต่าง AI Chat
+(ลบเฉพาะ %LOCALAPPDATA%\DevCpp-AI)

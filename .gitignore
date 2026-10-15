@@ -1,0 +1,10 @@
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+.venv/
+payload/Dev-Cpp/
+*.zip
+secrets.local.json
+src/devcpp_ai/_embedded_secrets.py
