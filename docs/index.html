@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevCpp-AI</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #F0F0F0;
+      --text: #000000;
+      --btn: #E1E1E1;
+      --btn-border: #A0A0A0;
+      --btn-text: #000000;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #2b2b2b;
+        --text: #f0f0f0;
+        --btn: #3c3c3c;
+        --btn-border: #666666;
+        --btn-text: #f0f0f0;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Tahoma, "Segoe UI", sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: clamp(12px, 3vw, 32px);
+    }
+    .wrap {
+      width: min(100%, 20rem);
+      text-align: center;
+    }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: min(100%, 10rem);
+      min-height: 2.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--btn-text);
+      background: var(--btn);
+      border: 1px solid var(--btn-border);
+      border-radius: 2px;
+    }
+    @media (max-width: 320px) {
+      a.btn {
+        width: 100%;
+        min-height: 2.25rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="btn" href="https://github.com/PUNteerased/DevCpp-AI/releases/latest/download/DevCpp-AI.exe">โหลด</a>
+  </div>
+</body>
+</html>
