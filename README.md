@@ -1,4 +1,4 @@
-# DevCpp-AI
+# DevCpp
 
 Download:
 - [DevCpp-AI.exe](https://github.com/PUNteerased/DevCpp-AI/releases/latest/download/DevCpp-AI.exe)
